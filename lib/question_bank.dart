@@ -3,6 +3,8 @@ import 'question.dart';
 class QuestionBank{
 
   int questionNumber = 0;
+  int correct = 0;
+  int wrong = 0;
 
   List<Question> bank = [
 
@@ -55,6 +57,8 @@ class QuestionBank{
 
   void reset(){
     questionNumber = 0;
+    correct = 0;
+    wrong = 0;
   }
 
 }
